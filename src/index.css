@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #282828;
+  color : #f4bd1c;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  cursor: pointer;
+}
+
+.card
+{
+  min-width: 200px;
+}
+
+.card-title {
+  /*white-space: nowrap; /* Prevent title from wrapping to the next line */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflowing text */
+}
