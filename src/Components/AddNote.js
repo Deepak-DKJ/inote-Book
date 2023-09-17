@@ -18,7 +18,7 @@ const AddNote = (props) => {
   }
   return (
     <div className="container my-3">
-      <h1>Add a Note</h1>
+      <h1>Welcome🤗</h1>
       <form className='my-3'>
         <div className="mb-3">
           <label htmlFor="title" className="form-label">Title</label>
